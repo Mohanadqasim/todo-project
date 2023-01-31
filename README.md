@@ -1,2 +1,2 @@
 # todo-project
-[ToDoProject](/todo.jpg)
+![ToDoProject](./todo.jpg)
