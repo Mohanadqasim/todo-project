@@ -1,0 +1,177 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: rgb(183, 139, 139);
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    float: right;
+}
+
+header div img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 10px 0 10px 20px;
+    float: left;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 20px 10px;
+    font-family: 'Kanit', sans-serif;
+    margin-right: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.heading {
+    color: white;
+    padding: 30px;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+    margin-left: 35px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#container {
+    background-image: url(https://wallpaperaccess.com/full/1489353.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#para1 {
+    margin: 150px 35px 0 35px;
+    font-family: 'Ribeye', cursive;
+}
+
+#table-title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    padding: 35px 20px;
+}
+td {
+    border: 1px black;
+    padding: 15px 20px 15px 20px;
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+#para2 {
+    margin: 150px 35px 200px 35px;
+    font-family: 'Ribeye', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color:  rgb(183, 139, 139);
+    width: 100%;
+    margin-top: auto;
+    padding: 10px;
+}
+footer div img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 10px 0 10px 20px;
+    float: left;
+}
+#copy-rights {
+
+    color: blanchedalmond;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#menuf {
+    color: black;
+}
+#menu {
+    color: blanchedalmond;
+    margin-top: -25px;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+footer div ul li {
+    margin-top: 7px;
+}
+
+#social-media {
+    color: blanchedalmond;
+    margin-top: 25px;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+#social-mediaf {
+    color: black;
+    margin-bottom: 7px;
+}
+
+footer div i {
+    margin-right: 7px;
+}
+
+#me {
+    width: 250px;
+    border-radius: 50%;
+    height: 250px;
+    margin-top: 50px;
+    
+}
+
+#my-name {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.about {
+    margin: 10px 100px -20px 100px;
+}
+
+input, select, button {
+    padding: 12px 20px;
+}
+
+input, select, button {
+    padding: 12px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.Contact-me {
+    background-color: black;
+}
