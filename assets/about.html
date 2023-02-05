@@ -21,10 +21,9 @@
 </head>
 
 <body>
-
     <header>
         <div>
-            <img src="/assets/logo.jpg" alt="logo">
+            <img src="/assets/logo.jpg" alt="logo" class="logo">
         </div>
         <nav>
             <ul>
@@ -37,8 +36,8 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h1 id="my-name">Mohannad Qasim</h1>
+        <div class="my-name">
+            <h1>Mohannad Qasim</h1>
         </div>
         <div class="about">
             <p>I'am a web developer who has overcome the challenges of starting a successful online business. After
@@ -46,51 +45,61 @@
                 leading player in its industry. Our determination and relentless drive have allowed us to turn a passion
                 project into a thriving business. We are an inspiration to aspiring entrepreneurs everywhere, and a
                 testament to the power of hard work and persistence.</p>
-        </div>
-        <div>
-            <img id="me" src="personalpic.jpg" alt="logo">
+
+            <img src="personalpic.jpg" alt="logo" class="me">
         </div>
         <div class="contact-me">
             <p>Contact Me</p>
         </div>
-        <form>
-            <label for="Full Name">Full Name</label>
-            <input type="text">
-            <label for="Email">Email</label>
-            <input type="Email">
-            <label for="Phone">Phone</label>
-            <input type="number">
-            <label for="Message">Message</label>
-            <input type="text">
-        </form>
-        </nav>
+        <div class="container">
+            <form >
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number...">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
     </main>
-
-
     <Footer>
-        <div id="footer-logo-img">
-            <img src="/assets/logo.jpg" alt="logo">
-        </div>
-        <div id="copy-rights">
-            <p> ©2022. All Rights Reserved</p>
-        </div>
-        <div id="menu">
-            <p id="menuf">MENU</p>
-            <ul>
-                <li> <a href="/index.html"> Home </a></li>
-                <li> <a href=""> ToDo List</a></li>
-                <li> <a href="">DONE Tasks</a></li>
-                <li> <a href="">Community</a></li>
-                <li> <a href="./assets/about.html">About Us</a></li>
-            </ul>
-        </div>
-        <div id="social-media">
-            <p id="social-mediaf">Follow Us</p>
-            <i class="	fas fa-phone-alt"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-whatsapp"></i>
-        </div>
-        </div>
+        <section>
+            <div>
+                <img src="./logo.jpg" alt="logo" class="logo">
+            </div>
+            <div id="copy-rights">
+                <p> ©2022. All Rights Reserved</p>
+            </div>
+            <div class="social-media">
+                <p id="social-mediaf">Follow Us</p>
+                <a href="#"><i class="	fas fa-phone-alt"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div id="menu">
+                <p id="menuf">MENU</p>
+                <ul>
+                    <li> <a href="/index.html"> Home </a></li>
+                    <li> <a href=""> ToDo List</a></li>
+                    <li> <a href="">DONE Tasks</a></li>
+                    <li> <a href="">Community</a></li>
+                    <li> <a href="./assets/about.html">About Us</a></li>
+                </ul>
+            </div>
+
+        </section>
     </Footer>
 </body>
 
