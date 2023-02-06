@@ -10,7 +10,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding-right: 100px;
 }
 
@@ -90,48 +90,35 @@ table, th, td {
 footer {
     background-color:  rgb(183, 139, 139);
     width: 100%;
-    margin-top: auto;
-    padding: 10px;
+    padding-top: 10px;
+    font-family: 'Kanit', sans-serif;
+    color: blanchedalmond;
 }
 
-#copy-rights {
-    color: blanchedalmond;
-    margin-top: 25px;
-    text-align: center;
-}
-
-#menuf {
-    color: black;
-}
-#menu {
-    color: blanchedalmond;
-    margin-top: -25px;
-    text-align: justify;
-    margin-left: 100px;
+.menu {
+    
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 footer div ul li {
     margin-top: 7px;
 }
 
-#social-media {
-    display: flex;
-    justify-content: flex-end;
-    color: blanchedalmond;
-    margin-top: 25px;
-}
-
 .social-media {
-    display: flex;
-    justify-content: flex-end ;
-    padding-right: 100px;
-    color: black;
+    padding-top: 15px;
     margin-bottom: 7px;
 }
 
-footer section div a {
-    margin-right: 7px;
-    color: black;
+footer nav div a {
+    font-family: 'Kanit', sans-serif;
+    margin-right: 12px;
+    padding-right: 10px;
+}
+footer nav div p {
+    font-family: 'Kanit', sans-serif;
+    margin-right: 12px;
+    padding-right: 10px;
 }
 
 .me {
