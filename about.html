@@ -5,60 +5,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f7fe5e387.js" crossorigin="anonymous"></script>
     <title>About Us</title>
 </head>
-<header>
-    <h1>ToDo List</h1>
-    <img src="logo.jpg" alt="logo">
-    <h4>About Us</h4>
-    <img src="personalpic.jpg" alt="logo">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, delectus nulla? Aperiam quis laborum, molestiae
-        ipsam, omnis repellendus id consectetur repudiandae sit nulla rerum alias explicabo? Exercitationem ipsa
-        accusantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nam ipsam fugiat sint
-        repellat voluptas necessitatibus iusto cumque consequatur vero repellendus esse ducimus voluptatem, adipisci
-        quos aspernatur expedita earum eius! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores,
-        corporis debitis minus voluptate amet reiciendis laudantium! Hic sed excepturi omnis delectus vel dolorem fugiat
-        nulla saepe, dignissimos amet eum culpa! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam
-        maxime harum architecto, blanditiis officia dolor odit nesciunt deserunt labore neque. Magni sequi hic aperiam
-        eaque similique nesciunt tempora quasi cupiditate?</p>
-    <p>Contact Me</p>
-    <form>
-        <label for="Full Name">Full Name</label>
-        <input type="text">
-        <label for="Email">Email</label>
-        <input type="Email">
-        <label for="Phone">Phone</label>
-        <input type="number">
-        <label for="Message">Message</label>
-        <input type="text">
-    </form>
-    <ul>
-        <li> <a href="/index.html"> Home </a></li>
-        <li> <a href=""> ToDo List</a></li>
-        <li> <a href="">DONE Tasks</a></li>
-        <li> <a href="">Community</a></li>
-        <li> <a href="/about.html">About Us</a></li>
-    </ul>
-    </nav>
-</header>
 
 <body>
+    <header>
+        <nav>
+            <div>
+                <img src="assets/logo.jpg" alt="logo" class="logo">
+            </div>
 
+            <ul>
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="#"> ToDo List</a></li>
+                <li> <a href="#">DONE Tasks</a></li>
+                <li> <a href="#">Community</a></li>
+                <li> <a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="my-name">
+            <h1>Mohannad Qasim</h1>
+        </div>
+        <div class="about">
+            <p>I'am a web developer who has overcome the challenges of starting a successful online business. After
+                numerous failed attempts, me and my team have finally hit the jackpot with ToDo List, which has become a
+                leading player in its industry. Our determination and relentless drive have allowed us to turn a passion
+                project into a thriving business. We are an inspiration to aspiring entrepreneurs everywhere, and a
+                testament to the power of hard work and persistence.</p>
+
+            <img src="./assets/personalpic.jpg" alt="logo" class="me">
+        </div>
+        <div class="contact-me">
+            <p>Contact Me</p>
+        </div>
+        <div class="container">
+            <form >
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number...">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+    </main>
+    <Footer>
+        <nav>
+                <img src="./assets/logo.jpg" alt="logo" class="logo">
+            <div class="menu">
+                <p>MENU</p>
+                <ul>
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a href="#"> ToDo List</a></li>
+                    <li> <a href="#">DONE Tasks</a></li>
+                    <li> <a href="#">Community</a></li>
+                    <li> <a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+<div>
+                <p> ©2022. All Rights Resaved</p>
+</div>
+            <div class="social-media">
+                <p>Follow Us</p>
+                <a href="#"><i class="	fas fa-phone-alt"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+        </nav>
+    </Footer>
 </body>
-<footer>
-    <p>MENU</p>
-    <ul>
-        <li> <a href="/index.html"> Home </a></li>
-        <li> <a href=""> ToDo List</a></li>
-        <li> <a href="">DONE Tasks</a></li>
-        <li> <a href="">Community</a></li>
-        <li> <a href="/about.html">About Us</a></li>
-    </ul>
-    <p>SOCIAL MEDIA</p>
-    <ul>
-        <li> <a href="/about.html"> Our Story </a></li>
-        <li> <a href="">Careers</a></li>
-    </ul>
-</footer>
 
 </html>
