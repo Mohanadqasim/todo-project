@@ -1,4 +1,4 @@
-/*et person = prompt("Please enter your name...");
+let person = prompt("Please enter your name...");
 
 let gender = prompt("please enter your gender (male or female)...");
 
@@ -18,4 +18,4 @@ if (welcomeMessage == true) {
     } else {
         alert("welcome to todo List " + person);
     }
-} */
+} 
