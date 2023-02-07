@@ -1,11 +1,14 @@
 * {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    scroll-behavior: smooth;
 }
 
 header {
-    background-color: rgb(183, 139, 139);
+    background-color: #7fb9f1;
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 nav {
@@ -22,10 +25,15 @@ nav {
 }
 
 header nav ul li {
+    font-weight: 500;
     display: inline-block;
     padding: 20px 10px;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     padding-right: 15px;
+}
+
+.header nav ul li:hover{
+    color: black;
 }
 
 a {
@@ -43,16 +51,17 @@ a {
     font-family: 'Dancing Script', cursive;
 }
 
-#container {
+#home {
     background-image: url(https://wallpaperaccess.com/full/1489353.jpg);
-    height: 650px;
+    height: 525px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .content {
-    background-color: rgb(215, 205, 205);
+    background-color: #f6f8fa;
+    color: #26125d;
 }
 
 .p1 {
@@ -60,6 +69,7 @@ a {
 }
 
 .table-title {
+    font-weight: 600;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -88,37 +98,23 @@ table, th, td {
 }
 
 footer {
-    background-color:  rgb(183, 139, 139);
+    background-color:  #7fb9f1;
     width: 100%;
-    padding-top: 10px;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: blanchedalmond;
-}
-
-.menu {
-    
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
-footer div ul li {
-    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .social-media {
-    padding-top: 15px;
-    margin-bottom: 7px;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
-footer nav div a {
-    font-family: 'Kanit', sans-serif;
-    margin-right: 12px;
-    padding-right: 10px;
-}
-footer nav div p {
-    font-family: 'Kanit', sans-serif;
-    margin-right: 12px;
-    padding-right: 10px;
+.rights {
+    padding: 70px 0 20px 100px;
 }
 
 .me {
